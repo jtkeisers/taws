@@ -1,19 +1,16 @@
 /*Core*/
 /*
-h1 {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;}
-h3 {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;}
-p {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
-blockquote {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px;}
-pre {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;}
-
-h1 {font-family: Georgia, Times, "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;}
-h3 {font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;}
-p {font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
-blockquote {font-family: Georgia, Times, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px;}
-pre {font-family: Georgia, Times, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;}
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 */
+
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+    /*font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;*/
+	font-family: 'Roboto', sans-serif;
     color: #545251;
     padding-top: 0
 }
@@ -105,15 +102,15 @@ img {
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
-	margin: 0
+    margin: 0
 }
 @media (min-width: 980px) {
-	.dropdown-menu > li > a,
+    .dropdown-menu > li > a,
     .dir-rtl .dropdown-menu > li > a {
-	    padding: 9px 20px;
-	}
+        padding: 9px 20px;
+    }
 }
-	/*Usermenu*/
+    /*Usermenu*/
 .jsenabled .usermenu .moodle-actionmenu.show {
     background: inherit
 }
@@ -207,9 +204,9 @@ img {
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
-	-webkit-box-shadow: none;
-	   -moz-box-shadow: none;
-        	box-shadow: none;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
     text-transform: uppercase;
     text-shadow: none
 }
@@ -240,10 +237,10 @@ img {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active {
-	background:	#b5b5b5;
-	-webkit-box-shadow: none;
-	   -moz-box-shadow: none;
-        	box-shadow: none
+    background: #b5b5b5;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none
 }
 .btn-primary {
     background: inherit;
@@ -254,9 +251,9 @@ img {
 .btn-primary:active {
     color: #ffffff;
     background: inherit;
-	-webkit-box-shadow: none;
-	   -moz-box-shadow: none;
-        	box-shadow: none
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none
 }
 .titlebar {}
 .titlebar .slidenav {
@@ -389,7 +386,7 @@ img {
 .dir-rtl #header .custom-menu > ul > li {
     float: right;
     background-position: left center;
-	padding: 0 0 0 2px
+    padding: 0 0 0 2px
 }
 #header .custom-menu > ul > .no-divider {
     background: none
@@ -403,7 +400,7 @@ img {
 }
 #header .custom-menu > ul > li > a:hover,
 #header .custom-menu > ul > li > a:focus {
-	background: inherit;
+    background: inherit;
     text-decoration: none
 }
 #header .header-menubar {
@@ -445,7 +442,7 @@ img {
 #header .header-menubar .navbar .nav > .active > a:focus {
     color: #ffffff;
     background: inherit;
-	outline: 0;
+    outline: 0;
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
             box-shadow: none
@@ -504,11 +501,11 @@ img {
 #header .header-menubar .navbar .btn-navbar.active,
 #header .header-menubar .navbar .btn-navbar.disabled,
 #header .header-menubar .navbar .btn-navbar[disabled] {
-	background: inherit
+    background: inherit
 }
 #header .header-menubar .navbar .btn-navbar:active,
 #header .header-menubar .navbar .btn-navbar.active {
-	background: inherit \9
+    background: inherit \9
 }
 #header .header-menubar .navbar .btn-navbar .icon-bar {
     width: 24px;
@@ -522,7 +519,7 @@ img {
             box-shadow: none
 }
 #header .header-menubar .btn-navbar .icon-bar + .icon-bar {
-	margin-top: 4px;
+    margin-top: 4px;
 }
 #header .header-menubar .custom-nav-search {
     margin: 5px 0
@@ -551,10 +548,10 @@ img {
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
-	margin: 0;
-	-webkit-box-shadow: none;
-	   -moz-box-shadow: none;
-	        box-shadow: none
+    margin: 0;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none
 }
 #header .header-menubar .custom-nav-search .fields-wrap input[type="text"] {
     width: 100%;
@@ -632,29 +629,29 @@ img {
     .navbar .nav-collapse.active .nav .dropdown-menu .dropdown-submenu.open > a {
         background: none;
     }
-	.navbar .nav-collapse.in .nav .dropdown-submenu.open>a,
-	.navbar .nav-collapse.in .nav .dropdown-menu .dropdown-submenu.open>a {
-		background:	#382738;
-	}
+    .navbar .nav-collapse.in .nav .dropdown-submenu.open>a,
+    .navbar .nav-collapse.in .nav .dropdown-menu .dropdown-submenu.open>a {
+        background: #382738;
+    }
     #header .header-menubar .nav-collapse .dropdown-menu {
         padding: 0 0 0 15px;
         margin: 0
     }
-	.dir-rtl #header .header-menubar .nav-collapse .dropdown-menu {
+    .dir-rtl #header .header-menubar .nav-collapse .dropdown-menu {
         padding: 0 15px 0 0;
         margin: 0
     }
     #header .header-menubar .collapse.in,
     #header .header-menubar .navbar .nav-collapse.active {
         border-top: 1px solid
-	}
-	#header .header-menubar .custom-nav-search {
+    }
+    #header .header-menubar .custom-nav-search {
         padding: 15px;
         border-top: 1px solid #fff;
         border-top-color: rgba(255, 255, 255, .2);
         margin: 0;
-	}
-	#header .header-menubar {
+    }
+    #header .header-menubar {
         padding: 0;
     }
 }
@@ -662,10 +659,10 @@ img {
     #header {
         margin-right: -20px;
         margin-left: -20px
-	}
+    }
     .dir-rtl #header .header-logo {
         float: none
-	}
+    }
     #header .header-logo > a {
         display: inline-block
     }
@@ -677,29 +674,29 @@ img {
 @media (min-width: 980px) {
     #header .header-menubar .navbar .nav > li > a {
         padding: 11px 15px
-	}
+    }
     #header .header-menubar .custom-nav-search {
         float: right
-	}
+    }
     .dir-rtl #header .header-menubar .custom-nav-search {
         float: left
-	}
+    }
     #header .header-menubar .custom-nav-search .fields-wrap {
         max-width: 200px;
-	}
+    }
 }
 @media (max-width: 480px) {
-	#header .header-logo {
-		float: none;
-		text-align: center;
-	}
-	.dir-rtl #header .header-logo {
-		float: none;
-	}
-	.usermenu .moodle-actionmenu {
-		margin: 0;
-		margin-bottom: 10px;
-	}
+    #header .header-logo {
+        float: none;
+        text-align: center;
+    }
+    .dir-rtl #header .header-logo {
+        float: none;
+    }
+    .usermenu .moodle-actionmenu {
+        margin: 0;
+        margin-bottom: 10px;
+    }
 }
 /*E.O.Header*/
 /*Home Page Carousel*/
@@ -717,7 +714,7 @@ img {
             background-size: cover;
 }
 .homepage-carousel .carousel-inner > .item .carousel-content {
-	background: url([[pix:theme|homecarousel-transbg]]) repeat 0 0;
+    background: url([[pix:theme|homecarousel-transbg]]) repeat 0 0;
     background: rgba(255, 255, 255, .53);
     padding: 20px
 }
@@ -741,7 +738,7 @@ img {
 }
 .homepage-carousel .carousel-inner > .item .carousel-content .carousel-btn > a:hover,
 .homepage-carousel .carousel-inner > .item .carousel-content .carousel-btn > a:focus {
-	background: inherit;
+    background: inherit;
     text-decoration: none
 }
 .homepage-carousel .carousel-inner > .item .carousel-content .carousel-btn > a > .fa {
@@ -783,23 +780,23 @@ img {
     .homepage-carousel {
         margin-right: -20px;
         margin-left: -20px
-	}
+    }
     .homepage-carousel .carousel-inner > item {
         padding-right: 20px;
         padding-left: 20px
-	}
+    }
     .homepage-carousel .carousel-inner > .item .item-inner-wrap {
         padding: 350px 0 0
     }
-	.homepage-carousel .carousel-control {
+    .homepage-carousel .carousel-control {
         display: none
-	}
+    }
 }
 @media (min-width: 768px) {
     .homepage-carousel .carousel-inner > .item {
         min-height: 493px
     }
-	.homepage-carousel .carousel-inner > .item .item-inner-wrap {
+    .homepage-carousel .carousel-inner > .item .item-inner-wrap {
         min-height: 493px;
         position: relative
     }
@@ -827,7 +824,7 @@ img {
 }
 .custom-courses-list .course-box .thumb {
     max-width: 135px;
-	background: #fff;
+    background: #fff;
     padding: 5px;
     border: 1px solid
 }
@@ -847,11 +844,11 @@ img {
     .custom-courses-list {
         margin-right: -20px;
         margin-left: -20px
-	}
+    }
     .custom-courses-list .container-fluid {
         padding-right: 20px;
         padding-left: 20px
-	}
+    }
     .custom-courses-list .course-box {
     }
     .custom-courses-list .course-box .thumb {
@@ -859,7 +856,7 @@ img {
     }
     .custom-courses-list .course-box .info {
         text-align: center
-	}
+    }
 }
 @media (min-width:768px) {
     .dir-rtl .custom-courses-list .row-fluid [class*="span"] {
@@ -1010,14 +1007,14 @@ img {
 }
 #footer .footer-foot p a {
     color: #ffffff;
-	text-decoration: underline;
+    text-decoration: underline;
 }
 @media (max-width: 767px) {
     #footer {
         margin-right: -20px;
         margin-left: -20px
     }
-	#footer .footer-main {
+    #footer .footer-main {
         padding-right: 20px;
         padding-left: 20px;
         text-align: center
@@ -1026,7 +1023,7 @@ img {
         padding-right: 20px;
         padding-left: 20px
     }
-	#footer .footer-desc .logo-footer a {
+    #footer .footer-desc .logo-footer a {
         margin: 0 auto
     }
     #footer .social-media > ul > li {
@@ -1040,20 +1037,20 @@ img {
     }
 }
 @media (min-width: 768px) {
-	#footer .social-media > ul > li > a {
+    #footer .social-media > ul > li > a {
         padding-left: 42px;
         position: relative
     }
-	.dir-rtl #footer .social-media > ul > li > a {
+    .dir-rtl #footer .social-media > ul > li > a {
         padding-right: 42px;
         padding-left: 0
     }
-	#footer .social-media > ul > li > a > .media-icon {
+    #footer .social-media > ul > li > a > .media-icon {
         position: absolute;
         top: 0;
         left: 0
     }
-	.dir-rtl #footer .social-media > ul > li > a > .media-icon {
+    .dir-rtl #footer .social-media > ul > li > a > .media-icon {
         left: auto;
         right: 0
     }
@@ -1061,11 +1058,11 @@ img {
 /*E.O.Footer*/
 /*Moodle & Bootstrapbase*/
 
-	/*Core*/
+    /*Core*/
 #page {
-	padding-bottom: 20px
+    padding-bottom: 20px
 }
-		/*Page Content Header(breadcrumb & singlebutton)*/
+        /*Page Content Header(breadcrumb & singlebutton)*/
 #page-header {
     background: #eeeeee;
     margin-bottom: 20px
@@ -1097,7 +1094,7 @@ img {
     font-family: FontAwesome;
     color: inherit;
     padding: 0 6px 0 3px;
-	display: inline-block
+    display: inline-block
 }
 .dir-rtl #page-header .breadcrumb > li > .divider:before {
     content: "\f100";
@@ -1124,18 +1121,18 @@ img {
     margin-bottom: 0
 }
 @media (max-width: 767px) {
-	#page-header {
+    #page-header {
         margin-right: -20px;
         margin-left: -20px
     }
-	#page-header #page-navbar {
+    #page-header #page-navbar {
         padding-right: 20px;
         padding-left: 20px
     }
 }
-			/*Sorting*/
+            /*Sorting*/
 .initialbar {
-	word-break: break-all
+    word-break: break-all
 }
 .initialbar.firstinitial {
     padding: 10px 0 0
@@ -1143,15 +1140,15 @@ img {
 .initialbar.lastinitial {
     padding: 0 0 10px
 }
-			/*Paging*/
+            /*Paging*/
 .paging {
-	padding: 10px 0;
+    padding: 10px 0;
     word-break: break-all
 }
 .paging:empty {
-	padding: 0
+    padding: 0
 }
-		/*Form Elements*/
+        /*Form Elements*/
 legend {
     float: left;
     color: #545251;
@@ -1160,20 +1157,20 @@ legend {
     margin-bottom: 40px;
 }
 legend + div {
-	clear: both
+    clear: both
 }
 legend + * {
-	-webkit-margin-top-collapse: separate
+    -webkit-margin-top-collapse: separate
 }
 .mform legend a,
 .mform legend a:hover {
-	color: #545251
+    color: #545251
 }
 .mform .fcheckbox input {
-	vertical-align: bottom;
+    vertical-align: bottom;
 }
 .dir-ltr .mform fieldset.collapsible legend a.fheader {
-	margin-left: 0
+    margin-left: 0
 }
 .dir-rtl .mform fieldset.collapsible legend a.fheader {
     margin-right: 0
@@ -1322,7 +1319,7 @@ select:focus {
        -moz-box-shadow: none;
             box-shadow: none
 }
-			/*Buttons*/
+            /*Buttons*/
 button,
 input.form-submit,
 input[type="button"],
@@ -1348,7 +1345,7 @@ input[type="reset"],
 .dir-rtl input[type="button"],
 .dir-rtl input[type="submit"],
 .dir-rtl input[type="reset"] {
-	margin: 0 5px 10px 0;
+    margin: 0 5px 10px 0;
 }
 input.form-submit,
 input#id_submitbutton,
@@ -1449,11 +1446,11 @@ div.backup-section + form,
 @media (min-width: 1200px) {
     .path-admin .buttons,
     .form-buttons {
-	    padding-left: 265px
+        padding-left: 265px
     }
     .dir-rtl .path-admin .buttons,
     .dir-rtl .form-buttons {
-    	padding-right: 165px
+        padding-right: 165px
     }
 }
 #page-admin-tool-timezoneimport-index #region-main .path-admin .buttons,
@@ -1492,7 +1489,7 @@ input#id_submitbutton2[disabled],
 .path-admin .buttons input[type="submit"][disabled],
 td.submit input[disabled] {
     color: #ffffff;
-	background: inherit
+    background: inherit
 }
 .dir-rtl input[name="searchwikicontent"] + input[type="submit"],
 .dir-rtl select + input[type="submit"],
@@ -1500,7 +1497,7 @@ td.submit input[disabled] {
 .dir-rtl input[type="password"] + input[type="submit"],
 .dir-rtl input[type="text"] + button,
 .dir-rtl input[type="text"] + input[type="submit"] {
-	margin: 0 5px 10px 0
+    margin: 0 5px 10px 0
 }
 input[type="radio"] + label,
 input[type="checkbox"] + label {
@@ -1509,11 +1506,11 @@ input[type="checkbox"] + label {
 #page-admin-tool-installaddon-index #installfromrepobox .singlebutton input[type="submit"] {
     padding: 0 18px
 }
-		/*Userselector*/
+        /*Userselector*/
 .userselector select {
     max-width: none
 }
-		/*mform*/
+        /*mform*/
 .form-item,
 .mform .fitem {
     margin-bottom: 30px
@@ -1554,12 +1551,12 @@ input[type="checkbox"] + label {
 .mform .fdescription.required {
     color: #757575
 }
-			/*Plugins > Activity modules > LTI*/
+            /*Plugins > Activity modules > LTI*/
 .path-admin-mod-lti .mform .fitem .fitemtitle {
     min-width: inherit;
     padding-left: 0
 }
-			/*Plugins > Activity modules > URL*/
+            /*Plugins > Activity modules > URL*/
 .form-password .unmask {
     margin-left: 5px
 }
@@ -1577,7 +1574,7 @@ input[type="checkbox"] + label {
         float: none;
         text-align: right
     }
-	.dir-rtl .form-item .form-label label,
+    .dir-rtl .form-item .form-label label,
     .dir-rtl .form-label .form-shortname {
         text-align: right
     }
@@ -1587,7 +1584,7 @@ input[type="checkbox"] + label {
     .mform .fitem {
         margin-bottom: 10px
     }
-	body #region-main .mform:not(.unresponsive) .fitem .fitemtitle {
+    body #region-main .mform:not(.unresponsive) .fitem .fitemtitle {
         margin-top: 0;
         margin-bottom: 0
     }
@@ -1595,7 +1592,7 @@ input[type="checkbox"] + label {
 @media (max-width: 600px) {
     .mform .fpassword .unmask,
     .dir-rtl .mform .fpassword .unmask {
-	    margin: 0;
+        margin: 0;
         display: block
     }
 }
@@ -1618,13 +1615,13 @@ input[type="checkbox"] + label {
     .dir-rtl .userprofile dl.list dd,
     .dir-rtl .form-horizontal .controls {
         margin-left: 0
-	}
+    }
 }
-		/*Blocks*/
+        /*Blocks*/
 .block {
     padding: 0;
     background: none;
-	border-color: inherit;
+    border-color: inherit;
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
@@ -1651,7 +1648,7 @@ input[type="checkbox"] + label {
 .block .content {
     padding: 10px 15px
 }
-			/*Blocks > block navigation*/
+            /*Blocks > block navigation*/
 .block_navigation .content {
     padding: 5px 0
 }
@@ -1695,7 +1692,7 @@ input[type="checkbox"] + label {
 .block_navigation .block_tree li > p.hasicon img {
     top: 10px
 }
-			/*Blocks > block settings*/
+            /*Blocks > block settings*/
 .block_settings .content {
     padding: 5px 0
 }
@@ -1751,7 +1748,7 @@ input[type="checkbox"] + label {
 .dir-rtl .block_settings .footer .adminsearchform div > input[type="submit"] {
     margin-right: 0
 }
-			/*Blocks > calender*/
+            /*Blocks > calender*/
 .block .minicalendar th > abbr {
     font-weight: normal;
     border-bottom: 0;
@@ -1781,7 +1778,7 @@ input[type="checkbox"] + label {
     color: #545251
 }
 
-			/*Tables > general & flexible tables*/
+            /*Tables > general & flexible tables*/
 table.flexible,
 .generaltable {}
 .no-overflow > .generaltable,
@@ -1789,7 +1786,7 @@ table.flexible,
     margin-bottom: 20px
 }
 .userenrolment tr {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 table.flexible th,
 .generaltable th,
@@ -1807,7 +1804,7 @@ table.flexible,
 .generaltable,
 .userenrolment,
 .rolecap {
-	margin-top:10px;
+    margin-top:10px;
 }
 table.flexible th,
 .generaltable th {}
@@ -1897,9 +1894,9 @@ table#listdirectories th,
 .category_subcategories td,
 .rcs-results td,
 table#listdirectories td {
-	padding:12px;
+    padding:12px;
 }
-			/*Tables > forumheaderlist*/
+            /*Tables > forumheaderlist*/
 .path-mod-forum .forumheaderlist thead .header {
     color: #ffffff;
     background: #inherit;
@@ -1917,7 +1914,7 @@ table#listdirectories td {
 .path-mod-forum .forumheaderlist .discussion .lastpost {
     vertical-align: middle
 }
-			/*Tables > participants*/
+            /*Tables > participants*/
 .userlist table#participants td,
 .userlist table#participants th {
     padding: 8px
@@ -1930,7 +1927,7 @@ table thead th label,
 #page-admin-report-eventlist-index #region-main #report-eventlist-table {
     overflow-x: auto
 }
-		/*Forum*/
+        /*Forum*/
 .forumpost {
     padding: 0;
     margin-bottom: 20px;
@@ -2095,7 +2092,7 @@ table thead th label,
     padding: 0
 }
 .comment-area .bd {
-	margin: 0 0 20px
+    margin: 0 0 20px
 }
 .comment-area textarea[cols] {
     width: 100%;
@@ -2128,7 +2125,7 @@ table thead th label,
     text-decoration: none
 }
 
-		/*Add Blog Link*/
+        /*Add Blog Link*/
 .addbloglink {
     padding: 10px 0;
 }
@@ -2152,7 +2149,7 @@ table thead th label,
     background: inherit;
     text-decoration: none
 }
-		/*Login Page > Default*/
+        /*Login Page > Default*/
 .loginbox,
 .loginbox.twocolumns {
     font-size: 16px;
@@ -2231,7 +2228,7 @@ table thead th label,
 }
 @media (max-width: 599px) {
     .loginbox .loginform .form-label,
-	.loginbox .loginform .form-input {
+    .loginbox .loginform .form-input {
         width: 100%;
         text-align: left;
     }
@@ -2297,7 +2294,7 @@ table thead th label,
         display: inline-block;
     }
 }
-	/*Frontpage > Category Listing*/
+    /*Frontpage > Category Listing*/
 #frontpage-category-names {
     border: 1px solid
 }
@@ -2374,7 +2371,7 @@ table thead th label,
 .dir-rtl .course_category_tree.frontpage-category-names .category.with_children.collapsed > .info > .categoryname:before {
     content: "\f137"
 }
-	/*Frontpage > Site News Forum*/
+    /*Frontpage > Site News Forum*/
 #site-news-forum {
     border: 1px solid
 }
@@ -2407,7 +2404,7 @@ table thead th label,
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
             box-shadow: none;
-	margin: 0
+    margin: 0
 }
 #site-news-forum .forumpost .row .left > a {
     display: inline-block
@@ -2416,10 +2413,10 @@ table thead th label,
     -webkit-border-radius: 18px;
        -moz-border-radius: 18px;
             border-radius: 18px;
-	margin: 0
+    margin: 0
 }
 .dir-rtl #site-news-forum .forumpost .picture img.userpicture {
-	margin: 0
+    margin: 0
 }
 #site-news-forum .forumpost .subject {
     font-weight: normal;
@@ -2444,7 +2441,7 @@ table thead th label,
 #site-news-forum .forumolddiscuss {
     padding: 12px 15px
 }
-	/*Frontpage > Available Courses*/
+    /*Frontpage > Available Courses*/
 #frontpage-course-list {
     border: 1px solid
 }
@@ -2466,7 +2463,7 @@ table thead th label,
 }
 #frontpage-course-list .courses.frontpage-course-list-all .fp-coursebox .fp-coursethumb {
     max-width: 135px;
-	background: #fff;
+    background: #fff;
     padding: 5px;
     border: 1px solid #ddd
 }
@@ -2495,8 +2492,8 @@ table thead th label,
     margin-right: 5px;
     margin-left: 0
 }
-	/*Courses*/
-		/*Courses > Courses landing*/
+    /*Courses*/
+        /*Courses > Courses landing*/
 .course_category_tree .category > .info {
     background: #ffffff;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjZmJmYmZiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -2524,24 +2521,24 @@ table thead th label,
     margin: 0
 }
 .course_category_tree .category > .info > .categoryname > a {
-	color: #545251
+    color: #545251
 }
 .course_category_tree .category > .info > .categoryname > a:hover,
 .course_category_tree .category > .info > .categoryname > a:focus {
     text-decoration: none
 }
 @media (min-width: 980px) {
-	.course_category_tree .category > .info > .categoryname {
-		padding-left: 27px
+    .course_category_tree .category > .info > .categoryname {
+        padding-left: 27px
     }
     .dir-rtl .course_category_tree .category > .info > .categoryname {
         padding-left: 18px;
         padding-right: 27px
     }
 }
-		/*Course > Course listing*/
+        /*Course > Course listing*/
 .coursebox {
-	padding: 10px;
+    padding: 10px;
     border-style: solid;
     border-color: #d5d5d5;
     -webkit-border-radius: 0;
@@ -2549,8 +2546,8 @@ table thead th label,
             border-radius: 0
 }
 .courses .coursebox.collapsed {
-	padding: 10px;
-	margin-bottom: 9px
+    padding: 10px;
+    margin-bottom: 9px
 }
 .coursebox > .info {
     clear: both;
@@ -2592,7 +2589,7 @@ table thead th label,
     margin: 0
 }
 .coursebox .content .teachers {
-	padding-top: 5px
+    padding-top: 5px
 }
 .coursebox .content .teachers li {
     color: #818181;
@@ -2624,7 +2621,7 @@ table thead th label,
 }
 @media (max-width: 599px) {
     .coursebox .content {
-	    padding: 120px 0 0
+        padding: 120px 0 0
     }
     .coursebox .content .courseimage,
     .coursebox .content .coursefile,
@@ -2637,7 +2634,7 @@ table thead th label,
 @media (min-width: 600px) {
     .coursebox .content .courseimage,
     .coursebox .content .coursefile {
-	    left: 0
+        left: 0
     }
     .dir-rtl .coursebox .content .courseimage,
     .dir-rtl .coursebox .content .coursefile {
@@ -2646,14 +2643,14 @@ table thead th label,
     }
     .coursebox .content .summary,
     .coursebox .content .coursecat {
-	    padding: 0 0 0 110px
+        padding: 0 0 0 110px
     }
     .dir-rtl .coursebox .content .summary,
     .dir-rtl .coursebox .content .coursecat {
-	    padding: 0 110px 0 0
+        padding: 0 110px 0 0
     }
     .coursebox .content .teachers {
-	    padding-left: 110px
+        padding-left: 110px
     }
     .dir-rtl .coursebox .content .teachers {
         padding-right: 110px;
@@ -2663,14 +2660,14 @@ table thead th label,
 @media (min-width: 768px) {
     .coursebox .content .summary,
     .coursebox .content .coursecat {
-	    padding: 0 0 0 120px
+        padding: 0 0 0 120px
     }
     .dir-rtl .coursebox .content .summary,
     .dir-rtl .coursebox .content .coursecat {
-	    padding: 0 120px 0 0
+        padding: 0 120px 0 0
     }
     .coursebox .content .teachers {
-	    padding-left: 120px
+        padding-left: 120px
     }
     .dir-rtl .coursebox .content .teachers {
         padding-right: 120px;
@@ -2684,15 +2681,15 @@ table thead th label,
 .course_category_tree .courses > .paging.paging-morelink:hover {
     background: #ffffff
 }
-		/*Course > Course detailed */
+        /*Course > Course detailed */
 .course-content .topics h3 {
-	font-size: 21px
+    font-size: 21px
 }
 .course-content ul li.section.main {
-	border-bottom: 1px solid #d5d5d5
+    border-bottom: 1px solid #d5d5d5
 }
 .course-content ul li.section.main .section li.activity {
-	padding-bottom: 10px
+    padding-bottom: 10px
 }
 .course-content .topics .section .summary .no-overflow {
     color: #3a87ad;
@@ -2724,7 +2721,7 @@ table thead th label,
     line-height: 22px;
 }
 
-		/*Admin > Messaging*/
+        /*Admin > Messaging*/
 #page-message-edit #region-main .mform fieldset {
     margin-bottom: 20px
 }
@@ -2740,27 +2737,27 @@ table thead th label,
     display: inline-block;
     margin-bottom: 0
 }
-		/*Admin > Users > Permissions*/
+        /*Admin > Users > Permissions*/
 .groupmanagementtable #buttonscell p.arrow_button input {
     padding: 0 10px;
     margin-top: 10px;
     text-transform: none
 }
 #page-admin-roles-allow #region-main .generaltable {
-		margin-top: 20px;
+        margin-top: 20px;
 }
-		/*My Profile > View Profile*/
+        /*My Profile > View Profile*/
 .userprofile .userprofilebox {}
 .userprofile .userprofilebox .profilepicture {}
 .userprofile .userprofilebox .profilepicture a {
-	display: block
+    display: block
 }
 .userprofile .userprofilebox .descriptionbox {}
 .userprofile .userprofilebox .descriptionbox .description:empty {
     margin: 0
 }
 .userprofile .userprofilebox .descriptionbox .description {
-	margin: 0 0 10px
+    margin: 0 0 10px
 }
 .userprofile .userprofilebox .descriptionbox .description p {
     line-height: 18px;
@@ -2789,32 +2786,32 @@ table thead th label,
     .userprofile dl.list dd,
     .dir-rtl .userprofile dl.list dt,
     .dir-rtl .userprofile dl.list dd {
-	    text-align: center
+        text-align: center
     }
 }
 @media (min-width: 480px) {
     .userprofile .userprofilebox .profilepicture {
-	    float: left
+        float: left
     }
     .dir-rtl .userprofile .userprofilebox .profilepicture {
-	    float: right
+        float: right
     }
     .userprofile .userprofilebox .descriptionbox {
-    	padding: 0 0 0 118px
+        padding: 0 0 0 118px
     }
     .dir-rtl .userprofile .userprofilebox .descriptionbox {
-	    padding: 0 118px 0 0
+        padding: 0 118px 0 0
     }
     .userprofile dl.list dt,
     .userprofile dl.list dd {
-    	text-align: left
+        text-align: left
     }
     .dir-rtl .userprofile dl.list dt,
     .dir-rtl .userprofile dl.list dd {
-	    text-align: right
+        text-align: right
     }
 }
-		/*My Profile > Messages*/
+        /*My Profile > Messages*/
 .message .contactselector {
     float: none;
     width: auto;
@@ -2844,8 +2841,8 @@ table thead th label,
     height: 40px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-	     -o-box-sizing: border-box;
-		    box-sizing: border-box
+         -o-box-sizing: border-box;
+            box-sizing: border-box
 }
 /*Administration > Reports > Logs*/
 #page-admin-report-log-index.dir-ltr #region-main .logselecform div label + select {
@@ -2881,7 +2878,7 @@ table thead th label,
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.5);
        -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.5);
             box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.5);
-	margin: 50px auto;
+    margin: 50px auto;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
          -o-box-sizing: border-box;
@@ -2906,7 +2903,7 @@ table thead th label,
 }
 .custom-login-page .loginbox .formwrap .form-fields .textbox-wrap {
     background: #ffffff;
-	padding-right: 48px;
+    padding-right: 48px;
     position: relative;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -2914,8 +2911,8 @@ table thead th label,
             box-sizing: border-box;
 }
 .dir-rtl .custom-login-page .loginbox .formwrap .form-fields .textbox-wrap {
-	padding-right: 0;
-	padding-left: 48px
+    padding-right: 0;
+    padding-left: 48px
 }
 .custom-login-page .loginbox .formwrap .form-fields input {
     max-width: 277px;
@@ -2936,7 +2933,7 @@ table thead th label,
        -moz-box-sizing: border-box;
          -o-box-sizing: border-box;
             box-sizing: border-box;
-	margin: 0
+    margin: 0
 }
 .dir-ltr .custom-login-page .loginbox .formwrap .form-fields input {
     padding-right: 0
@@ -3007,7 +3004,7 @@ table thead th label,
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
-	margin: 0
+    margin: 0
 }
 .custom-login-page .loginbox .formwrap .form-action input:hover,
 .custom-login-page .loginbox .formwrap .form-action input:focus,
@@ -3040,20 +3037,20 @@ table thead th label,
     }
     .custom-login-page .loginbox {
         max-width: none;
-	    width: 650px;
+        width: 650px;
     }
     .custom-login-page .loginbox .formwrap .form-fields {
-	    float: left;
+        float: left;
         margin: 0 20px 0 0
     }
     .dir-rtl .custom-login-page .loginbox .formwrap .form-fields {
         float: right;
         margin: 0 0 0 20px
     }
-	.custom-login-page .loginbox .formwrap .form-fields .textbox-wrap {
+    .custom-login-page .loginbox .formwrap .form-fields .textbox-wrap {
         width: 227px;
     }
-	.custom-login-page .loginbox .formwrap .support-fields {
+    .custom-login-page .loginbox .formwrap .support-fields {
         padding-bottom: 7px
     }
     .custom-login-page .loginbox .formwrap .support-fields p {
@@ -3080,9 +3077,9 @@ table thead th label,
 }
 @media (min-width: 980px) {
     .custom-login-page .loginbox {
-	    width: 750px;
+        width: 750px;
     }
-	.custom-login-page .loginbox .formwrap .form-fields .textbox-wrap {
+    .custom-login-page .loginbox .formwrap .form-fields .textbox-wrap {
         width: 277px;
     }
     .custom-login-page .loginbox .formwrap .support-fields p {
@@ -3115,8 +3112,8 @@ table#tag-management-list td input[type="text"] {
     height: 40px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-	     -o-box-sizing: border-box;
-		    box-sizing: border-box
+         -o-box-sizing: border-box;
+            box-sizing: border-box
 }
 /*Custom Site Expo*/
 .custom-site-expo {
@@ -3177,76 +3174,76 @@ table#tag-management-list td input[type="text"] {
 }
 .theme-color-schemes .thumbnail h6 {
     font-size: 16px;
-	color: #545251;
+    color: #545251;
     margin-bottom: 0;
     text-transform: none;
     text-align: center
 }
 @media (max-width: 767px) {
-	.theme-color-schemes .thumbnail {
-	    margin: 0 auto
+    .theme-color-schemes .thumbnail {
+        margin: 0 auto
     }
 }
 @media (min-width: 768px) {
     .dir-ltr .theme-color-schemes {
         margin-left: 200px
-	}
+    }
 }
 @media (min-width: 980px) {
     .dir-ltr .theme-color-schemes {
         margin-left: 220px
-	}
+    }
     .dir-rtl .theme-color-schemes {
         margin-right: 220px
-	}
+    }
 }
 @media (min-width: 1200px) {
     .dir-ltr .theme-color-schemes {
         margin-left: 265px
-	}
+    }
     .dir-rtl .theme-color-schemes {
         margin-right: 165px
-	}
+    }
 }
 /*Additional Css*/
 .block_navigation .content,
 .block_settings .content {
-	padding: 5px 10px;
+    padding: 5px 10px;
 }
 .block_navigation .block_tree .tree_item.branch.navigation_node,
 .dir-rtl .block_navigation .block_tree .tree_item.branch.navigation_node {
-	padding-left: 0;
-	padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 .block_navigation .block_tree li.contains_branch ul > li,
 .block_settings .block_tree > li {
-	padding: 0;
+    padding: 0;
 }
 .block_navigation .block_tree .tree_item > a,
 .block_settings .block_tree .tree_item > a {
-	display: block;
+    display: block;
 }
 .alert .close {
-	height: auto;
-	top: 0;
+    height: auto;
+    top: 0;
 }
 .pagelayout-report .no-overflow {
-	overflow: auto;
+    overflow: auto;
 }
 .path-grade-report-grader .gradeparent .no-overflow {
-	overflow: visible;
+    overflow: visible;
 }
 #region-main > div[role="main"] .pull-left + .no-overflow {
-	overflow: visible;
+    overflow: visible;
 }
 #header .header-menubar .nav-collapse .dropdown-menu a:hover {
-	background: #a55ba5 !important;
+    background: #a55ba5 !important;
 }
 #header .header-menubar .nav-collapse .dropdown-menu {
-	padding-left: 0;
+    padding-left: 0;
 }
 .block .content .userpicture {
-	margin: 0 5px;
+    margin: 0 5px;
 }
 .path-grade-report-grader .gradeparent .cell {
     padding: 4px 45px 4px 10px;
@@ -3256,115 +3253,115 @@ table#tag-management-list td input[type="text"] {
     margin-top: 0
 }
 .block_search_forums #searchform_search {
-	width: 100%;
+    width: 100%;
 }
 .path-grade-report-user #graded_users_selector {
-	float: none;
+    float: none;
 }
 .blog_entry .content .attachedimages {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .dir-rtl .block_navigation .block_tree .tree_item.branch,
 .dir-rtl .block_settings .block_tree .tree_item.branch {
-	background-position: right center;
+    background-position: right center;
 }
 .dir-rtl .block_navigation .block_tree li.contains_branch ul > li {
-	padding: 0;
+    padding: 0;
 }
 .dir-rtl .block_navigation .block_tree .depth_1 > ul {
-	margin-right: 0;
+    margin-right: 0;
 }
 .dir-rtl .custom-login-page .loginbox .formwrap .support-fields p > label.checkbox {
-	padding-left: 0;
+    padding-left: 0;
 }
 .dir-rtl .custom-login-page .loginbox .formwrap .support-fields p > label.checkbox > input[type="checkbox"] {
-	float: right;
+    float: right;
 }
 .dir-rtl.path-grade-report-user #graded_users_selector {
-	float: none;
+    float: none;
 }
 .dir-rtl#page-mod-quiz-mod.dir-rtl.dir-rtl.dir-rtl #id_reviewoptionshdr fieldset.fgroup > span {
     text-align: right;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-	.dir-rtl .mform .fcheckbox > span,
-	.dir-rtl .mform .fradio > span {
-		margin-right: 10px;
-	}
+    .dir-rtl .mform .fcheckbox > span,
+    .dir-rtl .mform .fradio > span {
+        margin-right: 10px;
+    }
 }
 @media (max-width: 991px) {
-	.dir-rtl .mform .fitem .felement {
-		margin-left: 0;
-		margin-right: 0;
-	}
+    .dir-rtl .mform .fitem .felement {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 @media (max-width: 767px) {
-	body #region-main .mform:not(.unresponsive) .fitem_fcheckbox .felement {
-		padding-top: 0;
-	}
-	body #region-main .mform:not(.unresponsive) .fitem .fcheckbox > span,
-	body #region-main .mform:not(.unresponsive) .fitem .fradio > span,
-	body #region-main .mform:not(.unresponsive) .fitem .fgroup > span  {
-		margin-top: 0;
-	}
-	.mform .fcheckbox input {
-		vertical-align: middle;
-	}
-	#page-mod-quiz-mod #id_reviewoptionshdr .fitemtitle {
-		height: auto;
-		margin-bottom: 10px;
-	}
-	.dir-rtl #header .header-logo {
-		float: right;
-	}
+    body #region-main .mform:not(.unresponsive) .fitem_fcheckbox .felement {
+        padding-top: 0;
+    }
+    body #region-main .mform:not(.unresponsive) .fitem .fcheckbox > span,
+    body #region-main .mform:not(.unresponsive) .fitem .fradio > span,
+    body #region-main .mform:not(.unresponsive) .fitem .fgroup > span  {
+        margin-top: 0;
+    }
+    .mform .fcheckbox input {
+        vertical-align: middle;
+    }
+    #page-mod-quiz-mod #id_reviewoptionshdr .fitemtitle {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .dir-rtl #header .header-logo {
+        float: right;
+    }
 }
 @media (min-width: 481px) {
-	.box form div .no-overflow {
-		overflow: visible;
-	}
+    .box form div .no-overflow {
+        overflow: visible;
+    }
 }
 @media(max-width: 480px) {
-	textarea {
-		max-width: 220px;
-	}
-	.userselector select {
-		max-width: 200px;
-		width: auto;
-	}
-	#region-main > div[role="main"] .pull-left + .no-overflow {
-		width: 100%;
-		overflow: auto;
-	}
-	.singlebutton div {
-		margin-left: 0;
-	}
-	.singlebutton div input {
-		font-size: 12px;
-		margin-left: 0;
-	}
-	table#categoryquestions{
-		width: auto;
-	}
-	div[role="main"] .pull-left button {
-		font-size: 12px;
-	}
-	#groupeditform .groups,
-	#groupeditform .members {
-		float: none;
-	}
-	.user-competency-course-navigation span input[type="text"] {
-		width: auto;
-	}
-	#page-mod-quiz-mod #id_reviewoptionshdr .fitem {
-		width: auto;
-	}
-	.dir-rtl #groupeditform .groups, .dir-rtl #groupeditform .members {
-		float: none;
-	}
-	.jsenabled .collapsibleregion {
-		height: auto;
-	}
-	.dir-rtl #header .header-logo {
-		float: none;
-	}
+    textarea {
+        max-width: 220px;
+    }
+    .userselector select {
+        max-width: 200px;
+        width: auto;
+    }
+    #region-main > div[role="main"] .pull-left + .no-overflow {
+        width: 100%;
+        overflow: auto;
+    }
+    .singlebutton div {
+        margin-left: 0;
+    }
+    .singlebutton div input {
+        font-size: 12px;
+        margin-left: 0;
+    }
+    table#categoryquestions{
+        width: auto;
+    }
+    div[role="main"] .pull-left button {
+        font-size: 12px;
+    }
+    #groupeditform .groups,
+    #groupeditform .members {
+        float: none;
+    }
+    .user-competency-course-navigation span input[type="text"] {
+        width: auto;
+    }
+    #page-mod-quiz-mod #id_reviewoptionshdr .fitem {
+        width: auto;
+    }
+    .dir-rtl #groupeditform .groups, .dir-rtl #groupeditform .members {
+        float: none;
+    }
+    .jsenabled .collapsibleregion {
+        height: auto;
+    }
+    .dir-rtl #header .header-logo {
+        float: none;
+    }
 }

@@ -405,10 +405,12 @@ table.flexible tbody th,
 }
 #dcflogo {
   height:80px;
+  width:464px;
   vertical-align:middle;
 }
 #dcflogo_footer {
   height:60px;
+  width:348px;
 }
 #dcftagline {
   vertical-align:middle;
